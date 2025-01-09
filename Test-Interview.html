@@ -7,6 +7,42 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+  <style>
+    body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.bg-light {
+  background-color: #f8f9fa; /* Bootstrap's light gray */
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* Media Queries for Responsive Layout */
+@media (max-width: 768px) {
+  /* Adjust column widths for smaller screens */
+  .row > .col-md-3 {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjust column widths for extra small screens */
+  .row > .col-md-3 {
+    flex-basis: 100%;
+  }
+      }
+  </style>
 <body>
 
   <div class="container-fluid bg-light">
